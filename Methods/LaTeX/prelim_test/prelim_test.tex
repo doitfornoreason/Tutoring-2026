@@ -1,0 +1,136 @@
+\documentclass[12pt]{article}
+\usepackage[left = 0.6in, right = 0.6in, top = 0.4in, bottom = 1.5in]{geometry} 
+\usepackage{pgfplots, fontawesome5, booktabs, xcolor, hyperref, amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ, actuarialsymbol}
+\pagestyle{fancy}
+\setlength{\headheight}{65pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{Prelim. problems}
+\rhead{Math Methods 1/2 review}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\emptygrid}[3]{ % #1: range, #2: y-label, #3: "labels" or "nolabels"
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = middle,
+        xlabel = $x$,
+        ylabel = $#2$,
+        xmin=-#1, xmax=#1,
+        ymin=-#1, ymax=#1,
+        grid = both,
+        grid style = {line width=.1pt, draw=gray!30},
+        xtick distance = 5,
+        ytick distance = 5,
+        minor tick num = 4,
+        tick label style = {font=\tiny},
+        width=10cm, height=10cm,
+        axis equal image,
+        % Logic to hide labels if #3 is "nolabels"
+        xticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi },
+        yticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi }
+    ]
+    \end{axis}
+    \end{tikzpicture}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}[section]
+\begin{document}
+Don't worry, this is not a real test! This is just a collection of problems that lets me know what you know. If you dont know how to do a question, feel free to leave it blank or write down initial thoughts
+\begin{itemize}
+    \item You can use any reference you want
+    \item only use a calculator on questions with (\faCalculator)  on them
+    \item keep track of the time you spend on each question
+\end{itemize}
+
+\hrulefill
+
+\begin{enumerate}
+    \item Set and interval notation 
+    \begin{enumerate}
+        \item Translate into interval notation: "real numbers greater than -2 \& less than or equal to 5"
+        \vspace{1cm}
+        \item Translate into set notation: "integers greater than -2 \& less than or equal to 5"
+        \vspace{1cm}
+        \item Translate into interval notation: "real numbers {less than or equal to} -2 or {bigger than} 5"
+        \vspace{1cm}
+        \item Translate into set notation: $(-\infty, 3) \cup (3, \infty)$
+        \vspace{1cm}
+        \item Try translating (c) into set notation (A bit trickier)
+        \vspace{1cm}
+    \end{enumerate}
+
+    \item Basic pseudocode: What value does $x$ have after executing the following pseudocode?
+    \begin{verbatim}
+    x <- 0 # this means let x take the value 0
+    while x < 10 do
+        if x is even then
+            x <- x + 3 # remember that a 0 is even :)
+        else
+            x <- x + 1
+    \end{verbatim}
+    \newpage
+
+    \item Let $f: \mathbb{R} \to \mathbb{R}, f(x) = x^{3}$ and $g: \mathbb{R} \to \mathbb{R}, g(x) = 2(x-3)^{3} - 3$
+    \begin{enumerate}
+        \item Find a series of transformations that takes $f$ to $g$
+        \vspace{5cm}
+        \item Are there any points of intersection between $f$ and $g$? If so, find them. (\faCalculator)
+        \vspace{5cm}
+        \item Plot the graph of $h(x) = \frac{f(x)}{x} + 2x$ and label key points
+        \begin{center}
+            \emptygrid{10}{h(x)}{labels}
+        \end{center}
+        \newpage
+        \item Find the slope of a tangent line to $g$ at $x = 3$ and $x = 4$
+        \vspace{5cm}
+        \item Find the \textit{signed} area under the curve of $g$ from $x = 3$ to $x = 6$ 
+        \vspace{5cm}
+        \item Find the \textit{unsigned} area between the curve and $x$ axis over $g$ from $x = 3$ to $x = 6$ 
+        \vspace{5cm}
+    \end{enumerate}
+
+
+
+    \item Let $f: [0, \frac{13\pi}{12}) \to \mathbb{R}, f(x) = \sin(2x) + 3$
+    \begin{enumerate}
+        \item Find the period and amplitude of $f$
+        \vspace{1cm}
+        \item Find the endpoints of the graph of $f$
+        \vspace{3cm}
+        \item Sketch the graph of $f$ over its domain, labelling key points
+        \begin{center}
+            \emptygrid{8}{f(x)}{nolabels}
+        \end{center}
+    \end{enumerate}
+
+    \item You have a sheet of paper with thickness of $0.1mm$. You keep folding it in half, and measure the thickness after each fold.
+    \begin{enumerate}
+        \item What is the thickness after 3 folds?
+        \vspace{2cm}
+        \item let $f(n)$ be the thickness in mm after $n$ folds. Write the function $f$ in terms of $n$
+        \vspace{3cm}
+        \item The moon is $384400 km = 384400 \times 10^{6} mm$ away from the surface of earth. How many folds do you need for the paper to reach the moon? (\faCalculator)
+        \vspace{4cm}
+    \end{enumerate}
+
+    \item Every morning before school, you pick a pair of socks at random from your drawer without looking. Suppose you have 3 pink, 8 white, and 7 black socks in the drawer.
+    \begin{enumerate}
+        \item What is the probability of picking a pair of matching white socks? (Hint: try a tree diagram)
+        \vspace{3cm}
+        \item What is the probability of picking a pair of matching socks (any colour)?
+        \vspace{3cm}
+        \item Given you chose a pair of matching socks, what is the probability that you chose a pair of black socks?
+        \vspace{3cm}
+    \end{enumerate}
+    \item Counting: Now dont worry if you dont know how to do these, there is a lot of variability in how different schools cover this topic (if they cover it at all) but having a decent understanding of these concepts can be extremely useful in probability/stats topics later on.
+    \begin{enumerate}
+    \item How many different ways can you arrange the letters in the word "METHODS"? 
+    \vspace{3cm}
+    \item Explain what ${10 \choose{4}}$ means and how do you calculate it? Explain why the formula for ${n \choose{k}}$ makes sense
+    \vspace{3cm}
+    
+\end{enumerate}
+    
+\end{enumerate}
+
+
+
+\end{document}
