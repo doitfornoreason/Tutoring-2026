@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.12)  17 JAN 2026 00:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.25)  26 JAN 2026 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/tutoring/Tutoring 2026/Tutoring-2026/Specialist/Worksheets/Quotientfunctions/quotientfunctions"
-(d:/tutoring/Tutoring 2026/Tutoring-2026/Specialist/Worksheets/Quotientfunctions/quotientfunctions.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+**"d:/tutoring/Tutoring 2026/Tutoring-2026/Methods/Worksheets/Differentiation_and_functions/Functions_2"
+(d:/tutoring/Tutoring 2026/Tutoring-2026/Methods/Worksheets/Differentiation_and_functions/Functions_2.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
 (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -45,6 +45,9 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen155
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks18
+) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks19
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2025/08/14 v1.18.2 Data Visualization (1.18.2)
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -63,7 +66,7 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks19
+\pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen159
 \pgfutil@tempdimb=\dimen160
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -75,10 +78,10 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks20
-\pgfkeys@temptoks=\toks21
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks22
+\pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen161
 \pgf@y=\dimen162
@@ -96,9 +99,9 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgf@countb=\count287
 \c@pgf@countc=\count288
 \c@pgf@countd=\count289
-\t@pgf@toka=\toks23
-\t@pgf@tokb=\toks24
-\t@pgf@tokc=\toks25
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count290
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
@@ -136,9 +139,9 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmath@dimen=\dimen171
 \pgfmath@count=\count293
 \pgfmath@box=\box54
-\pgfmath@toks=\toks26
-\pgfmath@stack@operand=\toks27
-\pgfmath@stack@operation=\toks28
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count294
 )) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -221,8 +224,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen198
 \pgffor@skip=\dimen199
-\pgffor@stack=\toks29
-\pgffor@toks=\toks30
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 )) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -256,9 +259,9 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks31
-\t@pgfplots@tokb=\toks32
-\t@pgfplots@tokc=\toks33
+\t@pgfplots@toka=\toks32
+\t@pgfplots@tokb=\toks33
+\t@pgfplots@tokc=\toks34
 \pgfplots@tmpa=\dimen265
 \c@pgfplots@coordindex=\count307
 \c@pgfplots@scanlineindex=\count308
@@ -266,11 +269,11 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgfplotsarray@tmp=\count309
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count310
-\t@pgfplotstable@a=\toks34
+\t@pgfplotstable@a=\toks35
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count311
- (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
-(c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+ (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen266
 \pgfdecoratedremainingdistance=\dimen267
 \pgfdecoratedinputsegmentcompleteddistance=\dimen268
@@ -294,16 +297,16 @@ File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2026-01-19 L3 programming layer (loader) 
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 ))
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -424,7 +427,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip51
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
@@ -432,7 +435,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2024/11/17 v2.01 AMS text
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
+\@emptytoks=\toks36
 \ex@=\dimen296
 )) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -470,34 +473,34 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip18
 \c@parentequation=\count338
 \dspbrk@lvl=\count339
-\tag@help=\toks36
+\tag@help=\toks37
 \row@=\count340
 \column@=\count341
 \maxfields@=\count342
-\andhelp@=\toks37
+\andhelp@=\toks38
 \eqnshift@=\dimen299
 \alignsep@=\dimen300
 \tagshift@=\dimen301
 \tagwidth@=\dimen302
 \totwidth@=\dimen303
 \lineht@=\dimen304
-\@envbody=\toks38
+\@envbody=\toks39
 \multlinegap=\skip53
 \multlinetaggap=\skip54
-\mathdisplay@stack=\toks39
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
 \thm@preskip=\skip55
 \thm@postskip=\skip56
 \thm@headsep=\skip57
-\dth@everypar=\toks45
+\dth@everypar=\toks46
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -507,30 +510,22 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip58
-\enit@outerparindent=\dimen305
-\enit@toks=\toks46
-\enit@inbox=\box67
-\enit@count@id=\count343
-\enitdp@description=\count344
-) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip59
-\f@nch@offset@elh=\skip60
-\f@nch@offset@erh=\skip61
-\f@nch@offset@olh=\skip62
-\f@nch@offset@orh=\skip63
-\f@nch@offset@elf=\skip64
-\f@nch@offset@erf=\skip65
-\f@nch@offset@olf=\skip66
-\f@nch@offset@orf=\skip67
-\f@nch@height=\skip68
-\f@nch@footalignment=\skip69
-\f@nch@widthL=\skip70
-\f@nch@widthC=\skip71
-\f@nch@widthR=\skip72
+\f@nch@headwidth=\skip58
+\f@nch@offset@elh=\skip59
+\f@nch@offset@erh=\skip60
+\f@nch@offset@olh=\skip61
+\f@nch@offset@orh=\skip62
+\f@nch@offset@elf=\skip63
+\f@nch@offset@erf=\skip64
+\f@nch@offset@olf=\skip65
+\f@nch@offset@orf=\skip66
+\f@nch@height=\skip67
+\f@nch@footalignment=\skip68
+\f@nch@widthL=\skip69
+\f@nch@widthC=\skip70
+\f@nch@widthR=\skip71
 \@temptokenb=\toks47
 ) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
@@ -553,26 +548,22 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks48
-\@arclen=\dimen306
-\@arcrad=\dimen307
-\pIIe@tempdima=\dimen308
-\pIIe@tempdimb=\dimen309
-\pIIe@tempdimc=\dimen310
-\pIIe@tempdimd=\dimen311
-\pIIe@tempdime=\dimen312
-\pIIe@tempdimf=\dimen313
+\@arclen=\dimen305
+\@arcrad=\dimen306
+\pIIe@tempdima=\dimen307
+\pIIe@tempdimb=\dimen308
+\pIIe@tempdimc=\dimen309
+\pIIe@tempdimd=\dimen310
+\pIIe@tempdime=\dimen311
+\pIIe@tempdimf=\dimen312
 ))
-\twoletkern=\skip73
-\nthtopsep=\skip74
-\nthtopskip=\skip75
-\nthbottomsep=\skip76
-\nthbottomskip=\skip77
-) (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)
-\c@theorem=\count345
- (./quotientfunctions.aux)
-\openout1 = `quotientfunctions.aux'.
+\twoletkern=\skip72
+\nthtopsep=\skip73
+\nthtopskip=\skip74
+\nthbottomsep=\skip75
+\nthbottomskip=\skip76
+) (./Functions_2.aux)
+\openout1 = `Functions_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -602,14 +593,14 @@ LaTeX Font Info:    ... okay on input line 36.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(43.36243pt, 527.57014pt, 43.36243pt)
-* v-part:(T,H,B)=(28.90755pt, 657.65744pt, 108.405pt)
+* v-part:(T,H,B)=(43.36243pt, 643.20256pt, 108.405pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=527.57014pt
-* \textheight=657.65744pt
+* \textheight=643.20256pt
 * \oddsidemargin=-28.90756pt
 * \evensidemargin=-28.90756pt
-* \topmargin=-80.36244pt
+* \topmargin=-65.90756pt
 * \headheight=65.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -638,46 +629,40 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
  on input line 36.
 
 Package hyperref Info: Link coloring OFF on input line 36.
-(./quotientfunctions.out) (./quotientfunctions.out)
+(./Functions_2.out) (./Functions_2.out)
 \@outlinefile=\write5
-\openout5 = `quotientfunctions.out'.
+\openout5 = `Functions_2.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
  (c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1{c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-[1{c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-
-[2]
-
-[3] (./quotientfunctions.aux)
+] [2] (./Functions_2.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `quotientfunctions.out' has not changed.
-(rerunfilecheck)             Checksum: DC2B9EBD6AC5F305E88E4A11DF38C4DF;683.
+Package rerunfilecheck Info: File `Functions_2.out' has not changed.
+(rerunfilecheck)             Checksum: 5CD5A9F899820C7B7019A6E80DC75536;131.
  ) 
 Here is how much of TeX's memory you used:
- 35126 strings out of 469728
- 824913 string characters out of 5475647
- 1294746 words of memory out of 5000000
- 63044 multiletter control sequences out of 15000+600000
- 633914 words of font info for 63 fonts, out of 8000000 for 9000
+ 34351 strings out of 469513
+ 806606 string characters out of 5468178
+ 1263783 words of memory out of 5000000
+ 62476 multiletter control sequences out of 15000+600000
+ 633963 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,11n,105p,822b,1988s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on quotientfunctions.pdf (3 pages, 72325 bytes).
+ 99i,12n,118p,811b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/Users/miraz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Functions_2.pdf (2 pages, 110019 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

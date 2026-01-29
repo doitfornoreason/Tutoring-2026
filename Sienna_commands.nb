@@ -1,0 +1,381 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12350,        373]
+NotebookOptionsPosition[     11796,        357]
+NotebookOutlinePosition[     12208,        373]
+CellTagsIndexPosition[     12165,        370]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Asymf Doesnt work if function can be simplified",
+ FontWeight->"Bold"]], "CodeText",
+ CellChangeTimes->{{3.9772663189652805`*^9, 
+  3.9772663316393642`*^9}},ExpressionUUID->"296074a8-343b-4388-9ef8-\
+22635f525109"],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "\"\<Global`*\>\"", "]"}], "\n", 
+ RowBox[{"Needs", "[", "\"\<HypothesisTesting`\>\"", "]"}], "\n", 
+ RowBox[{
+  RowBox[{"tangentf", "[", 
+   RowBox[{"f_", ",", "a_"}], "]"}], ":=", 
+  RowBox[{"Expand", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"f", "'"}], "[", "a", "]"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"x", "-", "a"}], ")"}]}], "+", 
+    RowBox[{"f", "[", "a", "]"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"tangent", "[", 
+   RowBox[{"func_", ",", "xval_"}], "]"}], ":=", 
+  RowBox[{"Expand", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"D", "[", 
+        RowBox[{"func", ",", "x"}], "]"}], "/.", 
+       RowBox[{"x", "\[Rule]", "xval"}]}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"x", "-", "xval"}], ")"}]}], "+", 
+    RowBox[{"(", 
+     RowBox[{"func", "/.", 
+      RowBox[{"x", "\[Rule]", "xval"}]}], ")"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"normalf", "[", 
+   RowBox[{"f_", ",", "a_"}], "]"}], ":=", 
+  RowBox[{"Expand", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"f", "'"}], "[", "a", "]"}], ")"}], "^", 
+       RowBox[{"-", "1"}]}]}], " ", 
+     RowBox[{"(", 
+      RowBox[{"x", "-", "a"}], ")"}]}], "+", 
+    RowBox[{"f", "[", "a", "]"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"normal", "[", 
+   RowBox[{"func_", ",", "a_"}], "]"}], ":=", 
+  RowBox[{"Expand", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"D", "[", 
+          RowBox[{"func", ",", "x"}], "]"}], "/.", 
+         RowBox[{"x", "\[Rule]", "a"}]}], ")"}], "^", 
+       RowBox[{"-", "1"}]}]}], " ", 
+     RowBox[{"(", 
+      RowBox[{"x", "-", "a"}], ")"}]}], "+", 
+    RowBox[{"(", 
+     RowBox[{"func", "/.", 
+      RowBox[{"x", "\[Rule]", "a"}]}], ")"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"statpointsf", "[", "func_", "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"j", ",", 
+        RowBox[{"func", "[", "j", "]"}]}], "}"}], ",", " ", "\"\<f''\>\"", 
+      ",", 
+      RowBox[{
+       RowBox[{"func", "''"}], "[", "j", "]"}]}], "}"}], "/.", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"func", "'"}], "[", "j", "]"}], "\[Equal]", "0"}], ",", "j"}],
+      "]"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"statpoints", "[", 
+   RowBox[{"func_", ",", "var_"}], "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"var", ",", "func"}], "}"}], ",", "\"\<f''\>\"", ",", 
+      RowBox[{"D", "[", 
+       RowBox[{"func", ",", 
+        RowBox[{"{", 
+         RowBox[{"var", ",", "2"}], "}"}]}], "]"}]}], "}"}], "/.", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"D", "[", 
+        RowBox[{"func", ",", "var"}], "]"}], "\[Equal]", "0"}], ",", "var", 
+      ",", "Reals"}], "]"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"npoi", "[", 
+   RowBox[{"f_", ",", "g_"}], "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"j", ",", 
+      RowBox[{"f", "[", "j", "]"}]}], "}"}], "/.", 
+    RowBox[{"NSolve", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"f", "[", "j", "]"}], "\[Equal]", 
+       RowBox[{"g", "[", "j", "]"}]}], ",", "j"}], "]"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"poi", "[", 
+   RowBox[{"f_", ",", "g_"}], "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"j", ",", 
+      RowBox[{"f", "[", "j", "]"}]}], "}"}], "/.", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"f", "[", "j", "]"}], "\[Equal]", 
+       RowBox[{"g", "[", "j", "]"}]}], ",", "j"}], "]"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"navalue", "[", 
+   RowBox[{"f_", ",", "a_", ",", "b_"}], "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "/", 
+      RowBox[{"(", 
+       RowBox[{"b", "-", "a"}], ")"}]}], ")"}], " ", 
+    RowBox[{"NIntegrate", "[", 
+     RowBox[{
+      RowBox[{"f", "[", "j", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"j", ",", "a", ",", "b"}], "}"}]}], "]"}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"avalue", "[", 
+   RowBox[{"f_", ",", "a_", ",", "b_"}], "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "/", 
+      RowBox[{"(", 
+       RowBox[{"b", "-", "a"}], ")"}]}], ")"}], " ", 
+    RowBox[{"Integrate", "[", 
+     RowBox[{
+      RowBox[{"f", "[", "j", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"j", ",", "a", ",", "b"}], "}"}]}], "]"}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"inflpointf", "[", "func_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"func", "'''"}], "[", "x", "]"}], "\[Equal]", "0"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Needs double diff test for: \>\"", ",", "x", " ", ",", " ", 
+        RowBox[{"func", "[", "x", "]"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Inflection point at: \>\"", ",", " ", "x", " ", ",", "  ", 
+        RowBox[{"func", "[", "x", "]"}]}], "}"}]}], "]"}], "/.", 
+    RowBox[{"DeleteDuplicates", "[", 
+     RowBox[{"Solve", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"func", "''"}], "[", "x", "]"}], "\[Equal]", "0"}], ",", "x",
+        ",", "Reals"}], "]"}], "]"}]}], "//", 
+   "TableForm"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"inflpoint", "[", "func_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"D", "[", 
+       RowBox[{"func", ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", "3"}], "}"}]}], "]"}], "\[Equal]", "0"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Needs double diff test for: \>\"", ",", "x", ",", "func"}],
+       "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Inflection point at: \>\"", ",", " ", "x", ",", " ", "func"}], 
+      "}"}]}], "]"}], "/.", 
+   RowBox[{"DeleteDuplicates", "[", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"D", "[", 
+        RowBox[{"func", ",", 
+         RowBox[{"{", 
+          RowBox[{"x", ",", "2"}], "}"}]}], "]"}], "\[Equal]", "0"}], ",", 
+      "x", ",", "Reals"}], "]"}], "]"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{"asymf", "[", "func_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Text", "[", "\"\<Expanded\>\"", "]"}], ",", 
+       RowBox[{"Apart", "[", 
+        RowBox[{"Expand", "[", 
+         RowBox[{"func", "[", "x", "]"}], "]"}], "]"}], ","}], " ", "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Text", "[", "\"\<X\>\"", "]"}], ",", " ", 
+       RowBox[{"Text", "[", "\"\<left hand side\>\"", "]"}], ",", " ", 
+       RowBox[{"Text", "[", "\"\<right hand side\>\"", "]"}]}], "}"}], ",", 
+     " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Text", "[", "\"\<horizontal asymptotes\>\"", "]"}], ",", "  ", 
+       RowBox[{"Limit", "[", 
+        RowBox[{
+         RowBox[{"func", "[", "x", "]"}], ",", 
+         RowBox[{"x", "\[Rule]", 
+          RowBox[{"-", "Infinity"}]}]}], "]"}], ",", "  ", 
+       RowBox[{"Limit", "[", 
+        RowBox[{
+         RowBox[{"func", "[", "x", "]"}], ",", 
+         RowBox[{"x", "\[Rule]", "Infinity"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Text", "[", "\"\<oblique asymptotes\>\"", "]"}], ",", " ", 
+       RowBox[{"FullSimplify", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Limit", "[", 
+           RowBox[{
+            FractionBox[
+             RowBox[{"func", "[", "x", "]"}], "x"], ",", 
+            RowBox[{"x", "\[Rule]", 
+             RowBox[{"-", "\[Infinity]"}]}]}], "]"}], "x"}], "+", 
+         RowBox[{"(", 
+          RowBox[{"Limit", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"func", "[", "x", "]"}], "-", 
+             RowBox[{"Evaluate", "[", 
+              RowBox[{
+               RowBox[{"Limit", "[", 
+                RowBox[{
+                 FractionBox[
+                  RowBox[{"func", "[", "x", "]"}], "x"], ",", 
+                 RowBox[{"x", "\[Rule]", 
+                  RowBox[{"-", "\[Infinity]"}]}]}], "]"}], "x"}], "]"}]}], 
+            ",", 
+            RowBox[{"x", "\[Rule]", 
+             RowBox[{"-", "\[Infinity]"}]}]}], "]"}], ")"}]}], "]"}], ",", 
+       " ", 
+       RowBox[{"FullSimplify", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Limit", "[", 
+           RowBox[{
+            FractionBox[
+             RowBox[{"func", "[", "x", "]"}], "x"], ",", 
+            RowBox[{"x", "\[Rule]", "\[Infinity]"}]}], "]"}], "x"}], "+", 
+         RowBox[{"(", 
+          RowBox[{"Limit", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"func", "[", "x", "]"}], "-", 
+             RowBox[{"Evaluate", "[", 
+              RowBox[{
+               RowBox[{"Limit", "[", 
+                RowBox[{
+                 FractionBox[
+                  RowBox[{"func", "[", "x", "]"}], "x"], ",", 
+                 RowBox[{"x", "\[Rule]", "\[Infinity]"}]}], "]"}], "x"}], 
+              "]"}]}], ",", 
+            RowBox[{"x", "\[Rule]", "\[Infinity]"}]}], "]"}], ")"}]}], 
+        "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Text", "[", "\"\<Vertical asymptotes\>\"", "]"}], " ", ",", 
+       " ", 
+       RowBox[{
+        RowBox[{"Transpose", "[", " ", 
+         RowBox[{"Values", "[", 
+          RowBox[{"Solve", "[", 
+           RowBox[{
+            RowBox[{"Denominator", "[", 
+             RowBox[{"Together", "[", 
+              RowBox[{"func", "[", "x", "]"}], "]"}], "]"}], "\[Equal]", 
+            "0"}], "]"}], "]"}], "]"}], "[", 
+        RowBox[{"[", "1", "]"}], "]"}]}], "}"}]}], "}"}], "//", 
+   "TableForm"}]}], "\n", 
+ RowBox[{
+  RowBox[{"trianglearea", "[", 
+   RowBox[{"a_", ",", "b_", ",", "c_"}], "]"}], ":=", 
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{
+    FractionBox["1", "4"], " ", 
+    SqrtBox[
+     RowBox[{
+      RowBox[{"-", 
+       RowBox[{"(", 
+        RowBox[{"a", "-", "b", "-", "c"}], ")"}]}], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "+", "b", "-", "c"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "-", "b", "+", "c"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "+", "b", "+", "c"}], ")"}]}]]}], "]"}]}]}], "Code",
+ CellChangeTimes->{{3.977266234603301*^9, 3.9772662936085253`*^9}, {
+  3.977266535465787*^9, 3.9772665499391127`*^9}, {3.9772666904446454`*^9, 
+  3.977266700413489*^9}, {3.9772673186059523`*^9, 3.9772673211234055`*^9}},
+ CellLabel->
+  "In[134]:=",ExpressionUUID->"d2e70c17-eede-4cb0-b6ae-765ba28fc8eb"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{3.977266559195913*^9, 3.9772667140929594`*^9, 
+  3.9772667853332396`*^9},ExpressionUUID->"94282b68-a18a-4411-9551-\
+5ddd42ccf12e"]
+},
+WindowSize->{860.25, 654.},
+WindowMargins->{{Automatic, 144.75}, {Automatic, 55.5}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"39877b9a-2717-474f-892b-02771600e365"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 238, 4, 38, "CodeText",ExpressionUUID->"296074a8-343b-4388-9ef8-22635f525109"],
+Cell[799, 26, 10814, 324, 350, "Code",ExpressionUUID->"d2e70c17-eede-4cb0-b6ae-765ba28fc8eb"],
+Cell[11616, 352, 176, 3, 28, "Input",ExpressionUUID->"94282b68-a18a-4411-9551-5ddd42ccf12e"]
+}
+]
+*)
+

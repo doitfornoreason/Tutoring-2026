@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Specialist/Worksheets/Logic and Proofs.md",
+                "file": "Methods/Conditional Probability Primer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logic and Proofs"
+              "title": "Conditional Probability Primer"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "6d6ab1494a27009b",
   "lastOpenFiles": [
+    "Specialist/Worksheets/Logic and Proofs.md",
+    "Methods/Conditional Probability Primer.md",
     "Specialist/Worksheets/Logic and Proofs.1.pdf",
-    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.pdf",
-    "Specialist/Worksheets/Logic and Proofs.md"
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.pdf"
   ]
 }

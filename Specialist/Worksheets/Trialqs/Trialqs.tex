@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+\usepackage[left = 0.6in, right = 0.6in, top = 0.4in, bottom = 1.5in]{geometry} 
+\usepackage{pgfplots, fontawesome5, booktabs, xcolor, hyperref, amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ, actuarialsymbol}
+\usepackage[dvipsnames]{xcolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{}
+\rhead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\emptygrid}[3]{ % #1: range, #2: y-label, #3: "labels" or "nolabels"
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = middle,
+        xlabel = $x$,
+        ylabel = $#2$,
+        xmin=-#1, xmax=#1,
+        ymin=-#1, ymax=#1,
+        grid = both,
+        grid style = {line width=.1pt, draw=gray!30},
+        xtick distance = 5,
+        ytick distance = 5,
+        minor tick num = 4,
+        tick label style = {font=\tiny},
+        width=8cm, height=8cm,
+        axis equal image,
+        % Logic to hide labels if #3 is "nolabels"
+        xticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi },
+        yticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi }
+    ]
+    \end{axis}
+    \end{tikzpicture}
+}
+
+\begin{document}
+\begin{enumerate}
+    \item Let $f(x) =  \frac{1}{\sqrt{6x^{2} - 5x + 1}-1}$
+    \begin{enumerate}
+        \item Find the equations of all asymptotes of the graph of $f$.
+        \item Find the maximal domain of $f$
+    \end{enumerate}
+    \item Plot the graph of $y = \frac{x-1}{x^{2}-4}$
+    
+    \begin{center}
+    \emptygrid{5}{y}{}  
+    \end{center}
+    
+    \item Plot the graph of $y = x^{2} + 1 - \frac{|x|-1}{x^{2}-4}$
+
+    \begin{center}
+    \emptygrid{5}{y}{}  
+    \end{center}
+\end{enumerate}
+
+\end{document}
