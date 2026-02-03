@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\usepackage[left = 0.6in, right = 0.6in, top = 0.4in, bottom = 1.5in]{geometry} 
+\usepackage{pgfplots, fontawesome5, booktabs, xcolor, hyperref, amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ, actuarialsymbol}
+\usepackage[dvipsnames]{xcolor}
+\pagestyle{fancy}
+\setlength{\headheight}{65pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{}
+\rhead{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\emptygrid}[3]{ % #1: range, #2: y-label, #3: "labels" or "nolabels"
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = middle,
+        xlabel = $x$,
+        ylabel = $#2$,
+        xmin=-#1, xmax=#1,
+        ymin=-#1, ymax=#1,
+        grid = both,
+        grid style = {line width=.1pt, draw=gray!30},
+        xtick distance = 5,
+        ytick distance = 5,
+        minor tick num = 4,
+        tick label style = {font=\tiny},
+        width=8cm, height=8cm,
+        axis equal image,
+        % Logic to hide labels if #3 is "nolabels"
+        xticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi },
+        yticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi }
+    ]
+    \end{axis}
+    \end{tikzpicture}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}[section]
+\begin{document}
+
+\begin{enumerate}
+    \item Find the asymptotes of $y = \dfrac{4x^2+8}{2x+1}$.
+    \vfill
+    
+    \item Sketch a graph of the following. Label all axes intercepts with their coordinates and all asymptotes with their equation.
+    \[ f(x) = \frac{x^3 - 3x^2 + 2}{x^2 - 4} \]
+    \vfill
+    
+    \item Consider the function $h: (-\infty, 0) \to \mathbb{R}$, $h(x) = \dfrac{x^3+1}{2x^2}$ and let $h^{-1}$ be the inverse function of $h$.
+    \begin{enumerate}
+        \item Sketch a graph of $y = h^{-1}(x)$ over its maximal domain. Label all axes intercepts with their coordinates and all asymptotes with their equation.
+        \vfill
+        \item Find the value of $h^{-1}(1)$.
+        \vfill
+    \end{enumerate}
+    
+    \item Find the equation of any asymptotes of the following function:
+    \[ j(x) = \left| \frac{3-2x^2}{2x-3} \right| \]
+    \vfill
+\end{enumerate}
+
+\end{document}
