@@ -50,3 +50,16 @@ Trying a new typesetting format for this topic, lmk if you end up preferring thi
 	- At every school in Melbourne, there is a student who is at least seven feet tall
 	- For all schools in Melbourne, there exists a teacher who gives every student a grade of either A or B
 	- There exists a school in Melbourne where every student is at least six feet tall
+
+## Types of proofs, Truth Tables
+- To prove the statement $A \implies  B$ (or $A \implies  \sim B$)
+1. Direct Proof
+2. Proof by contradiction
+3. Proof by contrapositive
+4. Proof by induction
+### Proof by induction
+- To prove a statement $S(n)$ for all $n \in \mathbb{N}$
+- Show that $S(n)$ is true for some base case $n_{0}$
+- Show that if $S(k)$ is true for some $k$, then it must also be true for $S(k + 1)$
+	- This allows us to "cascade" the proof forward
+	- As we know $S(n)$ is true for some base case $n_{0}$, it must be true for $n_{0} + 1$ which means its true for $n_{0} + 2$, ...

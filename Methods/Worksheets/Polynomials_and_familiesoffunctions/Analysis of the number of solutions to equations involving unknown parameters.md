@@ -20,7 +20,7 @@ Questions such as "Find the value(s) of parameter $k$ such that $f(x;k) = g(x;k)
 		- Solving for k yields $k = \pm\frac{1}2$, since $k >0$, k = $\frac12$
 2. Let $f(x)=\frac{k}{x-2}$, $g(x) = \sqrt{4-kx}$ where both $f$ and $g$ have their respective maximal domains, and $k \in R\setminus\{0\}$. Find the value(s) of k correct to two decimal places s.t there is only one intersection between $f$ and $g$
 
-## 3) Solving for the parameter first
+## 3) Solving for the parameter first 
 - Idea is to solve the equation $f(x;k) = g(x;k)$ for the **parameter** $k$ in terms of $x$
 	- This expression for $k$ in terms of $x$ represents $x_{0}-k_{0}$ pairs that gives a solution to $f(x;k) = g(x;k)$ at $x$ value $x_{0}$ when the parameter $k = k_{0}$
 	- Can look at the graph of $k$ to $x$ to determine the $k$ values that crosses the graph $n$ times, representing $n$ solutions
