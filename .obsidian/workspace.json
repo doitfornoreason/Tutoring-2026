@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9d5b79cdd1587c52",
+        "id": "348cff0bebe13fec",
         "type": "tabs",
         "children": [
           {
-            "id": "6d6ab1494a27009b",
+            "id": "067b4edc1261c439",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Specialist/Worksheets/Logic and Proofs.md",
+                "file": "Methods/Worksheets/Polynomials_and_familiesoffunctions/Analysis of the number of solutions to equations involving unknown parameters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logic and Proofs"
+              "title": "Analysis of the number of solutions to equations involving unknown parameters"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1f2cbfbbfb6dd745",
@@ -183,18 +184,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "6d6ab1494a27009b",
+  "active": "067b4edc1261c439",
   "lastOpenFiles": [
-    "Specialist/Worksheets/Logic and Proofs.1.pdf",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.tex",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.synctex.gz",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.pdf",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.out",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.log",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.aux",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/img1.jpg",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/PracticeQuestions.tex",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/PracticeQuestions.synctex.gz",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/PracticeQuestions.pdf",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/PracticeQuestions.out",
+    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/PracticeQuestions.log",
     "Specialist/Worksheets/Logic and Proofs.md",
+    "Specialist/Worksheets/Rational functions/img1.jpg",
+    "Specialist/Worksheets/Logic and proofs/Proof techniques.md",
+    "Specialist/Worksheets/Logic and Proofs 1.md",
+    "Specialist/Worksheets/Logic and proofs/Logic and Proofs 1.md",
+    "Specialist/Worksheets/Proof techniques.md",
     "Methods/Worksheets/Polynomials_and_familiesoffunctions/Analysis of the number of solutions to equations involving unknown parameters.md",
-    "Methods/Worksheets/Families of functions",
-    "TI-Nspire_CX-HH_GettingStarted_EN.pdf",
-    "Unconfirmed 58332.crdownload",
-    "Methods/Worksheets/Polynomials_and_familiesoffunctions/Unique, Infinite or No Solutions for Simultaneous Linear Equations.pdf",
-    "Methods/Worksheets/Polynomials_and_familiesoffunctions/polynom_familiesoffunctions.pdf",
     "Methods/Worksheets/Families of functions/Untitled.md",
-    "Methods/Conditional Probability Primer.md",
-    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/rationalfunctions_and_additionofoordinates.pdf"
+    "Methods/Conditional Probability Primer.md"
   ]
 }
