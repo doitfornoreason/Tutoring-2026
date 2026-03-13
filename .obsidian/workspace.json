@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "ca81f4727d78fc44",
         "type": "tabs",
         "children": [
           {
             "id": "abb6c7ba78ddd69c",
+=======
+        "id": "348cff0bebe13fec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "067b4edc1261c439",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,6 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< Updated upstream
   "active": "abb6c7ba78ddd69c",
   "lastOpenFiles": [
     "Specialist/Worksheets/Logic and proofs/Review questions.md",
@@ -204,6 +213,27 @@
     "Specialist/Worksheets/Logic and Proofs 1.md",
     "Specialist/Worksheets/Logic and proofs/Logic and Proofs 1.md",
     "Specialist/Worksheets/Proof techniques.md",
+=======
+  "active": "067b4edc1261c439",
+  "lastOpenFiles": [
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.out",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.aux",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.synctex(busy)",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.log",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.synctex.gz",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.pdf",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.tex",
+    "Specialist/Worksheets/Trial/Trialqs.tex",
+    "Specialist/Worksheets/Trial/Trialqs.synctex.gz",
+    "Specialist/Worksheets/Trial/Trialqs.pdf",
+    "Specialist/Worksheets/Trial/Trialqs.out",
+    "Specialist/Worksheets/Rational functions/img1.jpg",
+    "Specialist/Worksheets/Logic and proofs/Proof techniques.md",
+    "Specialist/Worksheets/Logic and Proofs 1.md",
+    "Specialist/Worksheets/Logic and proofs/Logic and Proofs 1.md",
+    "Specialist/Worksheets/Proof techniques.md",
+    "Methods/Worksheets/Polynomials_and_familiesoffunctions/Analysis of the number of solutions to equations involving unknown parameters.md",
+>>>>>>> Stashed changes
     "Methods/Worksheets/Families of functions/Untitled.md",
     "Methods/Conditional Probability Primer.md"
   ]

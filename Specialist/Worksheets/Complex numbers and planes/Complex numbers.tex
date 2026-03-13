@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage[left = 0.6in, right = 0.6in, top = 0.4in, bottom = 1.5in]{geometry} 
+\usepackage{pgfplots, fontawesome5, booktabs, xcolor, hyperref, amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ, actuarialsymbol}
+\usepackage[dvipsnames]{xcolor}
+\pagestyle{fancy}
+\setlength{\headheight}{65pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{}
+\rhead{Complex numbers}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\emptygrid}[3]{ % #1: range, #2: y-label, #3: "labels" or "nolabels"
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = middle,
+        xlabel = $x$,
+        ylabel = $#2$,
+        xmin=-#1, xmax=#1,
+        ymin=-#1, ymax=#1,
+        grid = both,
+        grid style = {line width=.1pt, draw=gray!30},
+        xtick distance = 5,
+        ytick distance = 5,
+        minor tick num = 4,
+        tick label style = {font=\tiny},
+        width=8cm, height=8cm,
+        axis equal image,
+        % Logic to hide labels if #3 is "nolabels"
+        xticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi },
+        yticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi }
+    ]
+    \end{axis}
+    \end{tikzpicture}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}[section]
+\begin{document}
+\section{Basics/Revision}
+\begin{itemize}
+    \item $i = \sqrt{-1}$ is called the imaginary/complex number 
+    \item $\mathbb{C}$ is the set of all numbers of the form $z = x + y i$, i.e $\mathbb{C} = \{ z : z = x + y i, x,y \in \mathbb{R} \}$
+    \begin{itemize}
+        \item $x$ is the real part of the complex number, i.e $\Re(z) = x$
+        \item $y$ is the imaginary part of the complex number, i.e $\Im(z) = y$
+    \end{itemize}
+    \item The magnitude/norm over complex numbers $z = x + y i$ is defined as $|z| = \sqrt{x ^{2} + y ^{2}}$
+    \item Conjugate of a complex number $z = x + y i$ is defined as $\overline{z} = x - y i$
+    \begin{itemize}
+        \item $z \cdot \overline{z} = |z|^2$
+    \end{itemize}
+    \item $\arg(z) = \theta \in (-\pi  , \pi ]$ where $\theta$ is the angle between the positive real axis and the line segment joining the origin to the point $(x,y)$ in the complex plane.
+    \item \textbf{adding and subtracting complex numbers}
+    \vspace{2cm}
+    \item \textbf{multiplying complex numbers}
+    \vspace{3cm}
+    \item \textbf{dividing complex numbers}
+    \vspace{5cm}
+    \item Geometric interpretation of $|z_{1} - z_{2}|$?
+    \item \textbf{Polar form} of a complex number $z = x + y i$ is given by $z = r cis(\theta) = r (\cos \theta + i \sin \theta ) \mathbf{ =  re^{i\theta }}$ where $r = |z|$ and $\theta = \arg(z)$
+    \item Multiplying/dividing with complex numbers is easier in polar form 
+    \item \textbf{Mathematica} 
+    \begin{itemize}
+        \item \texttt{Abs[z]} gives the magnitude
+        \item \texttt{Arg[z]} gives the argument
+        \item Can also use \texttt{ArcTan[x,y]}!!
+        \item \texttt{Conjugate[z]} gives the conjugate 
+        \item \texttt{Re[z]} ,\texttt{Im[z]}  gives the real and imaginary parts
+        \item \texttt{ComplexExpand[z]} gives the cartesian form of a complex number
+        \item Will send mathematica code for more functions \texttt{ :) } 
+    \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+    \item For $ z_{1} = 3 + 4i$, find $|z_{1}|, \overline{z_{1}}, \arg(z_{1})$ and express $z_{1}$ in polar form.
+    \vspace{3cm}
+    \item Let $z_{2} = 2 cis(\pi/4)$. Find $z_{2}$ in cartesian form.
+    \vspace{3cm}
+    \item Find the product and quotient of $z_{1}$ and $z_{2}$ in both cartesian and polar forms.
+    \vspace{3cm}
+\end{enumerate}
+
+
+\begin{itemize}
+    \item \textbf{De Moivre's Theorem} for any complex number $z = r cis(\theta)$ and any integer $n$, we have $z^n = r^n cis(n\theta)$: Use to calculate powers of complex numbers
+    \item \textbf{Roots of complex numbers} If $z = r cis(\theta)$, then the $n$-th roots of $z$ are given by $z_k = r^{1/n} cis\left( \frac{\theta + 2k\pi}{n} \right)$ for $k = 0, 1, ..., n-1$
+    \item Geometric interpretation of the roots of a complex number?
+\end{itemize}
+
+
+\section{Complex polynomials}
+\begin{itemize}
+    \item $\mathbb{C}$ is algebraically closed, i.e every non-constant polynomial with complex coefficients has at least one complex root.
+    \item This means that a polynomial of degree $n$ has exactly $n$ roots in $\mathbb{C}$ (counting multiplicities)! (How?) i.e \textbf{Fundamental theorem of algebra}
+    \item \textbf{Conjugate root theorem} If a polynomial has real coefficients and a complex root $z$, then its conjugate $\overline{z}$ is also a root.
+    \item Vieta's formulas for a polynomial of degree $3$ with roots $r_1, r_2, r_3$ and leading coefficient $a_3$:
+    \begin{enumerate}
+        \item $r_1 + r_2 + r_3 = -\frac{a_2}{a_3}$
+        \item $r_1 r_2 + r_1 r_3 + r_2 r_3 = \frac{a_1}{a_3}$
+        \item $r_1 r_2 r_3 = (-1)^3 \frac{a_0}{a_3}$
+    \end{enumerate}
+\end{itemize}
+
+
+\begin{enumerate}
+    
+\end{enumerate}
+\end{document}
