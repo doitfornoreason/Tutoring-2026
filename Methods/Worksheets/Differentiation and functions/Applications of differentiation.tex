@@ -144,5 +144,160 @@
     \item Find the time taken to travel from $A$ to $C$ through the forest, as a function of $\theta $
     \item Find the value of $\theta $ that minimises the time taken to travel from $A$ to $C$ through the forest and calculate the minimum time taken.
 \end{enumerate}
+
+\item A rain gauge collects water to measure rainfall. The manufacturers of the rain gauge wanted the shape to be a right inverted square based pyramid as shown below.
+
+\vspace{1em}
+
+The length of the edge of the square base is $x$ cm, the slant height has length $s$ cm and the vertical height $h$ cm as shown in the diagram below.
+
+\vspace{2em}
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+    % Define coordinates for the pyramid
+    \coordinate (TL) at (-3, 3);
+    \coordinate (TR) at (3, 3);
+    \coordinate (BL) at (-5, 0.5);
+    \coordinate (BR) at (1, 0.5);
+    
+    % Center of the top base M
+    \coordinate (M) at (-1, 1.75);
+    
+    % Apex V
+    \coordinate (V) at (-1, -6);
+    
+    % Midpoint of TR and BR
+    \coordinate (N) at (2, 1.75);
+
+    % Draw the top square base
+    \draw[thick] (TL) -- (TR) -- (BR) -- (BL) -- cycle;
+    
+    % Draw the visible edges down to apex
+    \draw[thick] (TL) -- (V);
+    \draw[thick] (TR) -- (V);
+    \draw[thick] (BL) -- (V);
+    \draw[thick] (BR) -- (V);
+
+    % Draw internal height and slant height lines
+    \draw[thick] (M) -- (V); % Vertical height (the center line) - NOW RED
+    \draw[thick] (M) -- (N);
+    \draw[thick, red] (N) -- (V);
+
+    % Tick marks for square base (all sides equal)
+    % Top edge
+    \draw[thick] (-0.1, 2.8) -- (0.1, 3.2);
+    % Bottom edge
+    \draw[thick] (-2.1, 0.3) -- (-1.9, 0.7);
+    % Left edge
+    \draw[thick] (-4.1, 1.6) -- (-3.7, 1.9);
+    % Right edge
+    \draw[thick] (1.9, 1.6) -- (2.3, 1.9);
+
+    % Right angle at M (center)
+    \draw[thick] (-1, 1.45) -- (-0.7, 1.45) -- (-0.7, 1.75);
+    
+    % Right angle at N (midpoint of slant edge)
+    \draw[thick] (1.7, 1.75) -- (1.8, 1.95) -- (2.1, 1.95);
+
+    % Labels and dimensions
+    % x cm
+    \draw[<->, >=latex] (-1.5, 3.6) -- (1.5, 3.6);
+    \node[fill=white, inner sep=2pt] at (0, 3.6) {$x$ cm};
+    
+    % h cm
+    \draw[<->, >=latex] (4, 3) -- (4, -6);
+    \node[fill=white, inner sep=2pt] at (4, -1.5) {$h$ cm};
+    
+    % s cm
+    \node[right, text=red] at (0.6, -2.5) {$s$ cm}; % TEXT - NOW RED
+
+\end{tikzpicture}
+\end{center}
+\vspace{1em}
+
+The rain gauge is to be made out of $1100 \text{ cm}^2$ of a transparent plastic, which is to include a square lid of side length $x$ cm.
+\begin{enumerate}
+    \item[\textbf{a.}] Show that $s = \frac{1100 - x^2}{2x}$.
+    \item[\textbf{b.}] Find the vertical height, $h$ cm in terms of $x$.
+    \item[\textbf{c.}] Hence show that the volume, $V \text{ cm}^3$, of the rain gauge is given by the rule
+    \[ V = \frac{5x\sqrt{-22(x^2 - 550)}}{3}. \]
+\end{enumerate}
+\vfill
+
+The designers want the rain gauge to hold the maximum amount water possible.
+
+\begin{enumerate}
+    \item[\textbf{d.}] What length should the edge of the base be?
+    \item[\textbf{e.}] What is the maximum volume of water the rain gauge can hold?
+\end{enumerate}
+
+
+The manufacturers use the recommendation of the designers: they produce the gauge that holds the maximum volume.
+
+\vspace{1em}
+
+With the lid open water falls into the rain gauge. Let the vertical height of water be $d$ cm and the length of the edge of the top surface of water be $w$ cm as shown in the diagram below.
+
+\vspace{2em}
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+    % Define coordinates for the outer pyramid
+    \coordinate (TL) at (-3, 3);
+    \coordinate (TR) at (3, 3);
+    \coordinate (BL) at (-5, 0.5);
+    \coordinate (BR) at (1, 0.5);
+    \coordinate (V) at (-1, -6);
+
+    % Draw the top square base
+    \draw[thick] (TL) -- (TR) -- (BR) -- (BL) -- cycle;
+    
+    % Define coordinates for the inner water level (at 1/2 height)
+    \coordinate (wTL) at (-2, -1.5);
+    \coordinate (wTR) at (1, -1.5);
+    \coordinate (wBL) at (-3, -2.75);
+    \coordinate (wBR) at (0, -2.75);
+
+    % Draw the visible edges down to apex
+    \draw[thick] (TL) -- (V);
+    \draw[thick] (TR) -- (V);
+    \draw[thick] (BL) -- (V);
+    \draw[thick] (BR) -- (V);
+
+    % Draw water level
+    \draw[thick, color=cyan!70!blue] (wTL) -- (wTR) -- (wBR) -- (wBL) -- cycle;
+
+    % Tick marks on water level
+    % Front edge midpoint approx (-1.5, -2.75)
+    \draw[thick, color=cyan!70!blue] (-1.6, -2.95) -- (-1.4, -2.55);
+    
+    % Right edge midpoint approx (0.5, -2.125)
+    \draw[thick, color=cyan!70!blue] (0.35, -2.275) -- (0.65, -1.975);
+
+    % Label w cm
+    \node[above left] at (-2.2, -2.2) {$w$ cm};
+    
+    % Draw d cm height arrow
+    \draw[<->, >=latex] (3.5, -1.5) -- (3.5, -6);
+    \node[fill=white, inner sep=2pt] at (3.5, -3.75) {$d$ cm};
+
+    % Optional dashed lines to indicate height bounds
+    \draw[dashed, color=gray] (1, -1.5) -- (3.5, -1.5);
+    \draw[dashed, color=gray] (-1, -6) -- (3.5, -6);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{1em}
+
+On a particularly rainy day, water fills the gauge at a rate of $0.2t \text{ cm}^3 / \text{min}$, where $t$ is the time in minutes. The gauge is initially empty.
+
+\vspace{1em}
+
+\begin{enumerate}
+    \item[\textbf{h.}] Using similar triangles, show that $V_w$, the volume of water in the gauge in $\text{cm}^3$, in terms of $d$ is $V_w = \frac{d^3}{6}$. Give the domain for the function.
+\end{enumerate}
+
 \end{enumerate}
 \end{document}
