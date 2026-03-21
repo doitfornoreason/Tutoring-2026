@@ -1,28 +1,24 @@
 {
   "main": {
-    "id": "9e1350bc73c89a92",
+    "id": "bf08bf8b789a6640",
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "ca81f4727d78fc44",
+        "id": "08851d6ca3d23ab6",
         "type": "tabs",
         "children": [
           {
-            "id": "abb6c7ba78ddd69c",
-=======
-        "id": "348cff0bebe13fec",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "067b4edc1261c439",
->>>>>>> Stashed changes
+            "id": "ee69bb0fe40be052",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Analysis of the number of solutions to equations involving unknown parameters"
             }
           }
         ]
@@ -31,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b977e3eb2b5aadbd",
+    "id": "bf42ef182474aa9b",
     "type": "split",
     "children": [
       {
-        "id": "4416daefda4416d8",
+        "id": "d91da6f8fcbb714e",
         "type": "tabs",
         "children": [
           {
-            "id": "fe699d77598d9ab9",
+            "id": "affd996e5eaf5c41",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +48,7 @@
             }
           },
           {
-            "id": "e4900a276396de2e",
+            "id": "357e021f112d97bb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -69,7 +65,7 @@
             }
           },
           {
-            "id": "1d7813501c20a6db",
+            "id": "c37f73d621bdd37b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,24 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "1f2cbfbbfb6dd745",
+    "id": "aab46ac9ccede885",
     "type": "split",
     "children": [
       {
-        "id": "8ae5267dc6d3282d",
+        "id": "7276a598808562f8",
         "type": "tabs",
         "children": [
           {
-            "id": "87de03d4047ae9ea",
+            "id": "2e8063becc9024a3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Specialist/Worksheets/Logic and Proofs.md",
+                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Logic and Proofs"
+              "title": "Backlinks for Analysis of the number of solutions to equations involving unknown parameters"
             }
           },
           {
-            "id": "13e09c0731c79372",
+            "id": "bc3fd440876094e1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Specialist/Worksheets/Logic and Proofs.md",
+                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Logic and Proofs"
+              "title": "Outgoing links from Analysis of the number of solutions to equations involving unknown parameters"
             }
           },
           {
-            "id": "1b5f34e401b1ec95",
+            "id": "d5d3b64912555be5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +137,7 @@
             }
           },
           {
-            "id": "9c5a0b3e68cdfdbd",
+            "id": "7c89b826044d9289",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,18 +151,18 @@
             }
           },
           {
-            "id": "f464890b83722ccd",
+            "id": "ac5bd1e1563b9d9c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Specialist/Worksheets/Logic and Proofs.md",
+                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Logic and Proofs"
+              "title": "Outline of Analysis of the number of solutions to equations involving unknown parameters"
             }
           }
         ]
@@ -189,52 +184,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "abb6c7ba78ddd69c",
+  "active": "ee69bb0fe40be052",
   "lastOpenFiles": [
-    "Specialist/Worksheets/Logic and proofs/Review questions.md",
-    "Specialist/Worksheets/Complex numbers and subsets/Complex numbers.md",
-    "Methods/Worksheets/Polynomials_and_familiesoffunctions/Analysis of the number of solutions to equations involving unknown parameters.md",
-    "Specialist/Worksheets/Complex numbers and subsets",
-    "Specialist/Worksheets/Logic and Proofs.md",
-    "Specialist/Worksheets/Logic and proofs/Logic and Proofs.md",
-    "Specialist/Worksheets/Logic and proofs/Logic and Proofs.1.pdf",
-    "Specialist/Worksheets/Logic and proofs",
-    "Specialist/Worksheets/Trigonometry/Trigfunctions.tex",
-    "Specialist/Worksheets/Trigonometry/Trigfunctions.synctex.gz",
-    "Specialist/Worksheets/Trigonometry/Trigfunctions.pdf",
-    "Specialist/Worksheets/Trigonometry/Trigfunctions.out",
-    "Specialist/Worksheets/Trigonometry/Trigfunctions.log",
-    "Specialist/Worksheets/Trigonometry/Trigfunctions.aux",
-    "Specialist/Worksheets/Trigonometry",
-    "Specialist/Worksheets/Rational functions/img1.jpg",
-    "Specialist/Worksheets/rationalandmodulusfunctions_and_additionofordinates/img1.jpg",
-    "Specialist/Worksheets/Logic and proofs/Proof techniques.md",
-    "Specialist/Worksheets/Logic and Proofs 1.md",
-    "Specialist/Worksheets/Logic and proofs/Logic and Proofs 1.md",
-    "Specialist/Worksheets/Proof techniques.md",
-=======
-  "active": "067b4edc1261c439",
-  "lastOpenFiles": [
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.out",
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.aux",
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.synctex(busy)",
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.log",
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.synctex.gz",
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.pdf",
-    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.tex",
-    "Specialist/Worksheets/Trial/Trialqs.tex",
-    "Specialist/Worksheets/Trial/Trialqs.synctex.gz",
-    "Specialist/Worksheets/Trial/Trialqs.pdf",
-    "Specialist/Worksheets/Trial/Trialqs.out",
-    "Specialist/Worksheets/Rational functions/img1.jpg",
-    "Specialist/Worksheets/Logic and proofs/Proof techniques.md",
-    "Specialist/Worksheets/Logic and Proofs 1.md",
-    "Specialist/Worksheets/Logic and proofs/Logic and Proofs 1.md",
-    "Specialist/Worksheets/Proof techniques.md",
-    "Methods/Worksheets/Polynomials_and_familiesoffunctions/Analysis of the number of solutions to equations involving unknown parameters.md",
->>>>>>> Stashed changes
-    "Methods/Worksheets/Families of functions/Untitled.md",
-    "Methods/Conditional Probability Primer.md"
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex(busy)",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.out",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.aux",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.log",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex.gz",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.pdf",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.tex"
   ]
 }
