@@ -1,0 +1,5 @@
+1. Consider a Space-battleship flying along the path $f:[0,3] \to \mathbb{R}, f(x) = \sqrt{ x }e^{-x}$. There is an enemy space station at the point $(0,1)$. The battleship crew would like to shoot the enemy station from as close as possible. Find the coordinates at which the battleship should shoot from.
+	1. As a response, the enemy station launches a drone in a straight line to intercept the battleship on their path. The launch is angled precisely so that the path of the drone is tangential to the battleship's path. Find the possible coordinate(s) at which the battleship can be intercepted by the enemy drone.
+	2. Hence, find possible equation(s) describing the enemy drone's path with appropriate domain(s).
+	3. Suppose the path of the drone launched by the enemy followed the line $y = ax$. For what values of $a$ will there be no interception of the battelship?
+2. Consider a 
