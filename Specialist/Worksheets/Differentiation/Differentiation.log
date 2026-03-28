@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.26)  27 MAR 2026 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.26)  27 MAR 2026 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/mir/Documents/Tutoring-2026/Specialist/Worksheets/Complex numbers and planes/Complex plane"
-(/home/mir/Documents/Tutoring-2026/Specialist/Worksheets/Complex numbers and planes/Complex plane.tex
+**/home/mir/Documents/Tutoring-2026/Specialist/Worksheets/Differentiation/Differentiation
+(/home/mir/Documents/Tutoring-2026/Specialist/Worksheets/Differentiation/Differentiation.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/home/mir/.TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -535,8 +535,8 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )) (/home/mir/.TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (./Complex plane.aux)
-\openout1 = `"Complex plane.aux"'.
+) (./Differentiation.aux)
+\openout1 = `Differentiation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -600,37 +600,37 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package hyperref Info: Link coloring OFF on input line 37.
-(./Complex plane.out) (./Complex plane.out)
+(./Differentiation.out) (./Differentiation.out)
 \@outlinefile=\write5
-\openout5 = `"Complex plane.out"'.
+\openout5 = `Differentiation.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
  (/home/mir/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (/home/mir/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/home/mir/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] [3] (./Complex plane.aux)
+] [2] [3] (./Differentiation.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `"Complex plane".out' has not changed.
+Package rerunfilecheck Info: File `Differentiation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34049 strings out of 469515
- 794034 string characters out of 5469773
- 1261852 words of memory out of 5000000
- 62179 multiletter control sequences out of 15000+600000
- 633010 words of font info for 60 fonts, out of 8000000 for 9000
+ 34052 strings out of 469515
+ 794084 string characters out of 5469773
+ 1263856 words of memory out of 5000000
+ 62181 multiletter control sequences out of 15000+600000
+ 633616 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,13n,118p,821b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/mir/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Complex plane.pdf" (3 pages, 81830 bytes).
+ 99i,11n,118p,810b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/mir/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/mir/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Differentiation.pdf (3 pages, 93022 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream

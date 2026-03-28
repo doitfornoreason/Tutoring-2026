@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "aab46ac9ccede885",
@@ -164,8 +165,19 @@
               "icon": "lucide-list",
               "title": "Outline of Analysis of the number of solutions to equations involving unknown parameters"
             }
+          },
+          {
+            "id": "8d9c1de7b7aed459",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -186,8 +198,12 @@
   },
   "active": "ee69bb0fe40be052",
   "lastOpenFiles": [
-    "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
+    "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.pdf",
+    "Methods/Worksheets/Differentiation and functions/Differentiation_and_functions_1.pdf",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
+    "Methods/Worksheets/Differentiation and functions/Functions_2.pdf",
+    "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
+    "Emma2.nb",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex(busy)",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.out",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.aux",
