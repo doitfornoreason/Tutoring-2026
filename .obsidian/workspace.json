@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08851d6ca3d23ab6",
+        "id": "d5971830c14518c3",
         "type": "tabs",
         "children": [
           {
-            "id": "ee69bb0fe40be052",
+            "id": "5658accd4a0d140c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Applications of differentiation 2"
+              "title": "New tab"
             }
           }
         ]
@@ -196,11 +192,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee69bb0fe40be052",
+  "active": "5658accd4a0d140c",
   "lastOpenFiles": [
+    "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.pdf",
     "Methods/Worksheets/Differentiation and functions/Differentiation_and_functions_1.pdf",
-    "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
     "Methods/Worksheets/Differentiation and functions/Functions_2.pdf",
     "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
     "Emma2.nb",
@@ -209,7 +205,6 @@
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.aux",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.log",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex.gz",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.pdf",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.tex"
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.pdf"
   ]
 }
