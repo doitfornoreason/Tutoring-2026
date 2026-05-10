@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d5971830c14518c3",
+        "id": "5aa8a07fea731c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "5658accd4a0d140c",
+            "id": "978ac56dc9ada7cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SAC 1 prep questions"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "aab46ac9ccede885",
@@ -192,19 +195,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5658accd4a0d140c",
+  "active": "978ac56dc9ada7cf",
   "lastOpenFiles": [
+    "Methods/Worksheets/Integration/Integration by recognition.md",
+    "Methods/3MM_11_T02_polynomials-and-logs.pdf",
+    "Methods/Worksheets/Integration",
+    "Some Mathematica things to know.md",
+    "Some Mathematica things to know.pdf",
+    "Pasted image 20260503184045.png",
+    "Pasted image 20260503184007.png",
+    "Difference between FindInstance and SolveAlways.pdf",
+    "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
+    "Specialist/Worksheets/SAC 1 prep",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.pdf",
     "Methods/Worksheets/Differentiation and functions/Differentiation_and_functions_1.pdf",
     "Methods/Worksheets/Differentiation and functions/Functions_2.pdf",
     "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
     "Emma2.nb",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex(busy)",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.out",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.aux",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.log",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex.gz",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.pdf"
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex(busy)"
   ]
 }
