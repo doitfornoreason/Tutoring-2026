@@ -1,0 +1,111 @@
+\documentclass[12pt]{article} 
+ \usepackage[left = 0.6in, right = 0.6in, top = 0.6in, bottom = 1.5in]{geometry}  
+
+ \usepackage{enumerate, pgfplots, fontawesome5, booktabs, xcolor, 
+hyperref, amsmath,amsthm,amssymb,amsfonts, fancyhdr, color, comment, 
+graphicx, environ} 
+ \usepackage[dvipsnames]{xcolor} 
+ \pgfplotsset{compat=1.18} 
+ \pagestyle{fancy} 
+ \setlength{\headheight}{65pt} 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ \lhead{Integration} 
+ \rhead{} 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+ \begin{document} 
+
+ \section*{Basic Properties and Substitutions} 
+
+ \noindent \textbf{Standard forms and algebraic rearrangement:} 
+ \begin{itemize} 
+     \item Polynomial long division might be required to achieve a standard form. 
+     \item Algebraic re-arrangement (completing the square) may be required before or after substitution. 
+ \end{itemize} 
+
+ \begin{enumerate} 
+     \item Calculate the following using standard forms or linear substitution:
+     \begin{enumerate}[a.] 
+         \item $\displaystyle \int\frac{2x+1}{2-x}dx$ 
+         \vspace{1.5cm} 
+         \item $\displaystyle \int(2x+1)\sqrt{x-1}dx$ 
+         \vspace{1.5cm} 
+         \item $\displaystyle \int\frac{1}{x^{2}+2x+2}dx$ 
+     \end{enumerate} 
+ \end{enumerate} 
+
+ \section*{The Reverse Chain Rule} 
+ \noindent \textbf{Rule:} $\displaystyle \int f[g(x)]g'(x) dx = F(g(x)) + C$. 
+ \textbf{Special case:} $\displaystyle \int\frac{g'(x)}{g(x)}dx=\log_{e}|g(x)|+C$. 
+
+ \begin{enumerate} 
+     \item Find the anti-derivative of:
+     \begin{enumerate}[a.] 
+         \item $\displaystyle \int\frac{e^{x}}{1+5e^{2x}}dx$ 
+         \vspace{1.5cm} 
+         \item $\displaystyle \int \frac{\sin(x)}{\sqrt{1+\cos(x)}}dx$ 
+     \end{enumerate} 
+      
+     \item \textbf{(Unleash the Beast):} Find $\displaystyle \int\sqrt{1-\cos(x)}dx$ for $0\le x\le\pi$. 
+ \end{enumerate} 
+
+ \section*{Trigonometric Identities} 
+
+ \noindent \textbf{Case 2: Odd powers.} Substitute $\sin^{2}(kx)=1-\cos^{2}(kx)$ or $\cos^{2}(kx)=1-\sin^{2}(kx)$.  \\
+ \noindent \textbf{Case 3: Even powers.} Use double angle formulae: 
+ \begin{align*} 
+     \cos^{2}(A) &= \frac{1}{2}(\cos(2A)+1) \text{ and } \sin^{2}(A) = \frac{1}{2}(1-\cos(2A)) 
+ \end{align*} 
+
+ \begin{enumerate} 
+     \item Calculate $\displaystyle \int \cos(x)\sin(x)dx$ in three different ways and compare. 
+     \vspace{2cm} 
+     \item Evaluate $\displaystyle \int \sin^2(x)\cos^4(x)dx$. 
+ \end{enumerate} 
+
+ \pagebreak
+
+ \section*{Rational Functions and Partial Fractions} 
+
+ \noindent \textbf{Partial Fraction Forms:} 
+ \begin{itemize} 
+     \item Non-Repeated Linear Factor: $\displaystyle \frac{A}{x-\alpha}$ 
+     \item Repeated Linear Factor: $\displaystyle \frac{A_{1}}{x-a}+\frac{A_{2}}{(x-a)^{2}}+\dots$ 
+     \item Irreducible Quadratic: $\displaystyle \frac{Bx+C}{ax^{2}+bx+c}$ 
+ \end{itemize} 
+
+ \begin{enumerate} 
+     \item Compare finding $\displaystyle \int\frac{5x-1}{(2x+1)^{2}}dx$ using partial fractions versus using substitution. 
+     \vspace{4cm} 
+     \item Find the anti-derivative of $\displaystyle \int \frac{x^2}{9-x^2} dx$. 
+ \end{enumerate} 
+
+ \section*{Integration by Parts} 
+ \noindent \textbf{Formula:} $\displaystyle \int u\, dv = uv - \int v\, du$.  \\
+ \noindent \textbf{Priority (u):} Polynomial (Case 1)  or Inverse Transcendental (Case 2). 
+
+ \begin{enumerate} 
+     \item Find $\displaystyle \int x \sin(x) dx$. 
+     \vspace{2cm} 
+     \item Find the single inverse transcendental integral $\displaystyle \int \arcsin(x) dx$. 
+ \end{enumerate} 
+
+ \section*{Definite Integrals and Reduction Formulae} 
+ \begin{itemize} 
+     \item Always substitute for the integral terminals when using a change of variable. 
+ \end{itemize} 
+
+ \begin{enumerate} 
+     \item Let $I_{n}=\int \sin^{n}(x)dx$. Use integration by parts to obtain the reduction formula: 
+     $$I_{n}=-\frac{1}{n}\cos(x)\sin^{n-1}(x)+\left(\frac{n-1}{n}\right)I_{n-2}$$
+     \vspace{3cm} 
+     \item Find exact values of $k$ and $p$ such that $\displaystyle \int_{k}^{4}\frac{1}{x^{3}-2x^{2}+x}dx=\frac{8}{3}-\log_{e}(p)$. 
+ \end{enumerate} 
+
+ \section*{Graphing Relationships} 
+ \begin{itemize} 
+     \item If $f(a)=0$ ($x$-intercept), then $F(x)$ has a stationary point at $x=a$. 
+     \item If $f(x)$ has a turning point at $x=a$, then $F(x)$ has a point of inflection at $x=a$. 
+ \end{itemize} 
+
+ \end{document}

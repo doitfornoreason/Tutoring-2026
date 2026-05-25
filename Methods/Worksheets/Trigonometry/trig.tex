@@ -1,0 +1,79 @@
+\documentclass[12pt]{article}
+\usepackage[left = 0.6in, right = 0.6in, top = 0.4in, bottom = 1.5in]{geometry} 
+\usepackage{pgfplots, fontawesome5, booktabs, xcolor, hyperref, amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ, actuarialsymbol}
+\usepackage[dvipsnames]{xcolor}
+\pagestyle{fancy}
+\setlength{\headheight}{65pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{}
+\rhead{Trig functions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\emptygrid}[3]{ % #1: range, #2: y-label, #3: "labels" or "nolabels"
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = middle,
+        xlabel = $x$,
+        ylabel = $#2$,
+        xmin=-#1, xmax=#1,
+        ymin=-#1, ymax=#1,
+        grid = both,
+        grid style = {line width=.1pt, draw=gray!30},
+        xtick distance = 5,
+        ytick distance = 5,
+        minor tick num = 4,
+        tick label style = {font=\tiny},
+        width=8cm, height=8cm,
+        axis equal image,
+        % Logic to hide labels if #3 is "nolabels"
+        xticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi },
+        yticklabels={ \ifx\empty#3\empty\else\ifnum\pdfstrcmp{#3}{nolabels}=0 \else \fi\fi }
+    ]
+    \end{axis}
+    \end{tikzpicture}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}[section]
+\begin{document}
+\section{Revision}
+\subsection{Symmetry properties}
+
+\begin{tikzpicture}[scale=3]
+    \draw[->] (-1.2,0) -- (1.2,0) node[right] {$x$};
+    \draw[->] (0,-1.2) -- (0,1.2) node[above] {$y$};
+    \draw (0,0) circle (1);
+\end{tikzpicture}
+
+
+\begin{itemize}
+    \item $\cos(-x) = \cos(x)$
+    \item $\sin(-x) = -\sin(x)$
+    \item $\tan(-x) = $
+    \item $\sin(x+\pi) =$
+    \item $\cos(x+\pi) =$
+    \item $\sin(x + \frac{\pi}{2}) =$
+    \item $\sin(x - \frac{\pi}{2}) =$
+    \item $\cos(x + \frac{\pi}{2}) =$
+    \item $\cos(x - \frac{\pi}{2}) =$
+\end{itemize}
+
+\subsubsection{Pythagorean identity}
+\begin{itemize}
+    \item $\sin^2(x) + \cos^2(x) = $
+    \item $1 + \tan^2(x) = $
+    \item $1 + \cot^2(x) = $
+\end{itemize}
+
+\subsection{Solving equations}
+Strategy:
+\begin{itemize}
+    \item Find two distinct solutions in $[0, 2\pi)$ (or $[-\pi, \pi)$)
+    \item Use periodicity to find the general solution
+\end{itemize}
+
+
+\begin{enumerate}
+    \item Solve $\sin(2x) = \frac{\sqrt{3}}{2}$
+    \item Solve $(\sin(2x) - 1)(\sqrt{3}\sec(\frac{x}{5}) - 2) = 0$
+\end{enumerate}
+
+\end{document}
