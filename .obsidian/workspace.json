@@ -1,24 +1,22 @@
 {
   "main": {
-    "id": "bf08bf8b789a6640",
+    "id": "d62b2048a1a96206",
     "type": "split",
     "children": [
       {
-        "id": "08851d6ca3d23ab6",
+        "id": "30e894ca3a08b9b0",
         "type": "tabs",
         "children": [
           {
-            "id": "ee69bb0fe40be052",
+            "id": "680a11e3a2027c9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.12.7"
               },
-              "icon": "lucide-file",
-              "title": "Analysis of the number of solutions to equations involving unknown parameters"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
             }
           }
         ]
@@ -27,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bf42ef182474aa9b",
+    "id": "59fb8894214b38da",
     "type": "split",
     "children": [
       {
-        "id": "d91da6f8fcbb714e",
+        "id": "14262410923cc1b3",
         "type": "tabs",
         "children": [
           {
-            "id": "affd996e5eaf5c41",
+            "id": "49502a11ce1a4c01",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +46,7 @@
             }
           },
           {
-            "id": "357e021f112d97bb",
+            "id": "ff2d9eb68092a8f7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +63,7 @@
             }
           },
           {
-            "id": "c37f73d621bdd37b",
+            "id": "aadbbc3d12b5fe37",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +76,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "aab46ac9ccede885",
+    "id": "df02fd57c9aee9f8",
     "type": "split",
     "children": [
       {
-        "id": "7276a598808562f8",
+        "id": "451b1062c1650a28",
         "type": "tabs",
         "children": [
           {
-            "id": "2e8063becc9024a3",
+            "id": "329733470a208e6f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
+                "file": "Methods/Worksheets/Differentiation and functions/Differentiation applications 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Analysis of the number of solutions to equations involving unknown parameters"
+              "title": "Backlinks for Differentiation applications 2"
             }
           },
           {
-            "id": "bc3fd440876094e1",
+            "id": "e105796cf8068e26",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
+                "file": "Methods/Worksheets/Differentiation and functions/Differentiation applications 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Analysis of the number of solutions to equations involving unknown parameters"
+              "title": "Outgoing links from Differentiation applications 2"
             }
           },
           {
-            "id": "d5d3b64912555be5",
+            "id": "f37f11b8b70c4315",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +136,7 @@
             }
           },
           {
-            "id": "7c89b826044d9289",
+            "id": "a2db5c37f2a4ee05",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +150,18 @@
             }
           },
           {
-            "id": "ac5bd1e1563b9d9c",
+            "id": "80011494deddf9ba",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
+                "file": "Methods/Worksheets/Differentiation and functions/Differentiation applications 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Analysis of the number of solutions to equations involving unknown parameters"
+              "title": "Outline of Differentiation applications 2"
             }
           }
         ]
@@ -184,14 +183,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee69bb0fe40be052",
+  "active": "680a11e3a2027c9b",
   "lastOpenFiles": [
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex(busy)",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.out",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.aux",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.log",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.tex",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex.gz",
     "Specialist/Worksheets/Complex numbers and planes/Complex plane.pdf",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.tex"
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.out",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.log",
+    "Specialist/Worksheets/Complex numbers and planes/Complex plane.aux",
+    "Specialist/Worksheets/Complex numbers and planes/Complex numbers.log",
+    "Emma1.nb",
+    "Methods/Worksheets/Differentiation and functions/Differentiation applications 2.md"
   ]
 }
