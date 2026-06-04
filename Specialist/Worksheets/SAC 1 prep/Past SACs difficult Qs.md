@@ -1,0 +1,4 @@
+- 2023 p2 
+	- q3 f, g
+		- $h_{n}: D \to R, h_{n}(x) = \frac{x}{x^{n}-1}$ where $n \in \mathbb{Z}^{+}$, $D$ is the maximal domain
+		- (f) Show that $h_{n}''(x) = 0$ when $x = 0, x = \sqrt[n]{- \frac{n + 1}{n-1}  }$

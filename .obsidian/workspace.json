@@ -13,12 +13,12 @@
             "state": {
               "type": "release-notes",
               "state": {
-                "file": "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
+                "file": "Specialist/Worksheets/SAC 1 prep/Past SACs difficult Qs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SAC 1 prep questions"
+              "title": "Past SACs difficult Qs"
             }
           }
         ]
@@ -198,6 +198,8 @@
   },
   "active": "978ac56dc9ada7cf",
   "lastOpenFiles": [
+    "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
+    "Specialist/Worksheets/SAC 1 prep/Past SACs difficult Qs.md",
     "Methods/Worksheets/Integration/Integration by recognition.md",
     "Methods/3MM_11_T02_polynomials-and-logs.pdf",
     "Methods/Worksheets/Integration",
@@ -206,7 +208,6 @@
     "Pasted image 20260503184045.png",
     "Pasted image 20260503184007.png",
     "Difference between FindInstance and SolveAlways.pdf",
-    "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
     "Specialist/Worksheets/SAC 1 prep",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.pdf",
