@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5aa8a07fea731c4d",
+        "id": "2f7ca1f43b943e8c",
         "type": "tabs",
         "children": [
           {
-            "id": "978ac56dc9ada7cf",
+            "id": "1f65c077ec0d4cc9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "file": "Specialist/Worksheets/SAC 1 prep/Past SACs difficult Qs.md",
+                "file": "Specialist/Worksheets/SAC 1 prep/Integration - Trig focus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Past SACs difficult Qs"
+              "title": "Integration - Trig focus"
             }
           }
         ]
@@ -172,8 +172,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -196,11 +196,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "978ac56dc9ada7cf",
+  "active": "1f65c077ec0d4cc9",
   "lastOpenFiles": [
-    "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
     "Specialist/Worksheets/SAC 1 prep/Past SACs difficult Qs.md",
-    "Methods/Worksheets/Integration/Integration by recognition.md",
+    "Specialist/Worksheets/SAC 1 prep/Integration - Trig focus.md",
+    "Specialist/Worksheets/Differentiation/12MSPE-23-Test 5-Differential Calculus - CAS Active.pdf",
+    "Methods/Worksheets/Trigonometry/Some Trig questions.md",
+    "Methods/Worksheets/Integration/Integration questions.md",
+    "misc/latexsnippets.txt",
+    "misc",
+    "Specialist/Worksheets/SAC 1 prep/SAC 1 prep questions.md",
     "Methods/3MM_11_T02_polynomials-and-logs.pdf",
     "Methods/Worksheets/Integration",
     "Some Mathematica things to know.md",
@@ -212,9 +217,6 @@
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.md",
     "Methods/Worksheets/Differentiation and functions/Applications of differentiation 2.pdf",
     "Methods/Worksheets/Differentiation and functions/Differentiation_and_functions_1.pdf",
-    "Methods/Worksheets/Differentiation and functions/Functions_2.pdf",
-    "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md",
-    "Emma2.nb",
-    "Specialist/Worksheets/Complex numbers and planes/Complex plane.synctex(busy)"
+    "Methods/Worksheets/Polynomials and families of functions/Analysis of the number of solutions to equations involving unknown parameters.md"
   ]
 }
