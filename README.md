@@ -1,4 +1,4 @@
-Tutoring resources I created for 
+Tutoring resources for 
 
 1. VCE Mathematical Methods 3/4
 2. VCE Specialist Mathematics 3/4
