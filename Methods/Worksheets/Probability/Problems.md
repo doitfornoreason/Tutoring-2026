@@ -7,7 +7,7 @@ a\sin\left( 2\pi \frac{x}{1000} \right) + b  & 0 < x< 1000 \\
 $$
 	for $a,b \in \mathbb{R}$
 	- Find possible ranges for $a$ and $b$.
-	- Let $a,b$ take their smallest possible values. Find the probability $p$ of a bid over $\$700$, and the expected bid amount.
+	- Let $a,b$ take their largest possible values. Find the probability $p$ of a bid over $\$700$, and the expected bid amount.
 	- Suppose all bidders place their bids independently. Suppose $n$ bidders appear at the auction. Let $N$ denote the number of bidders who bid over $\$700$
 		- Find and simplify $g(k) = \frac{P(N = 1| n = k + 1)}{P(N = 1 | n = k)}$ in terms of $p$ and $k$. 
 		- Find the smallest value of $k$ such that $g(k) < 1$. What does this represent?
@@ -34,10 +34,10 @@ $$
 * $\int_0^{1000} f(x)\,dx = 1 \implies b = \frac{1}{1000} = 0.001$
 * $f(x) \ge 0 \implies |a| \le b \implies a \in \left[-\frac{1}{1000}, \frac{1}{1000}\right]$
 
-2. Smallest a, b, Probability p, and E[X]
-* Smallest values: $a = -\frac{1}{1000}$, $b = \frac{1}{1000}$
-* $p = P(X > 700) = \int_{700}^{1000} \left(-\frac{1}{1000}\sin\left(\frac{2\pi x}{1000}\right) + \frac{1}{1000}\right)dx = 0.3 + \frac{1 - \cos(1.4\pi)}{2\pi} \approx 0.5083$
-* $\mathbb{E}[X] = \int_0^{1000} x f(x)\,dx = 500 + \frac{500}{\pi} \approx 659.15$
+2. Largest a, b, Probability p, and E[X]
+* Largest values: $a = \frac{1}{1000}$, $b = \frac{1}{1000}$
+* $p = P(X > 700) = \int_{700}^{1000} \left(\frac{1}{1000}\sin\left(\frac{2\pi x}{1000}\right) + \frac{1}{1000}\right)dx = 0.3 - \frac{1 - \cos(1.4\pi)}{2\pi} \approx 0.0917$
+* $\mathbb{E}[X] = \int_0^{1000} x f(x)\,dx = 500 - \frac{500}{\pi} \approx 340.85$
 
 3. Expression for g(k)
 * $N \sim \text{Binomial}(n, p) \implies P(N = 1 \mid n) = n p (1 - p)^{n-1}$
